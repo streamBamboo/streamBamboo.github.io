@@ -1,0 +1,23 @@
+.work{
+	background-image: url(../img/timg.jpg);
+	background-size: cover;
+	position: relative;
+}
+.work div{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	line-height: 50px;
+	color:blue;
+}
+.work label{
+	font-size: 26px;
+}
+
+
+

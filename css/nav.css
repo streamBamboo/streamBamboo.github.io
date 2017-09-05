@@ -1,0 +1,28 @@
+nav{
+	position: fixed;
+	z-index: 99;
+	right: 0px;
+	top: 10px;
+}
+nav>#menu>li{
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 2px;
+	list-style: none;
+}
+nav>#menu>li>a{
+	background-color: rgba(0,0,0,0.1);
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	color: #fff;
+	
+	display: block;
+	text-decoration: none;
+}
+nav .active{
+	background-color: deepskyblue;
+	border-radius: 100%;
+}

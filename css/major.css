@@ -1,0 +1,22 @@
+.major{
+	background-image: url(../img/let.jpg);
+	background-size: cover;
+	position: relative;
+}
+.major ul{
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	line-height: 50px;	
+	color: greenyellow;
+	font-size: 28px;
+}
+
+.major li{
+	list-style: initial;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--外接personal的css样式-->
+		<link rel="stylesheet" type="text/css" href="css/personal.css"/>
+		<!--外接fullPage-->
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+		<!--外接animate-->
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<!--外接重置和清除浮动的css-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fullPage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/fullPage.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<audio src="Victoria Acosta - Could This Be Love.mp3" autoplay="autoplay" loop="loop"></audio>
+		<nav>
+			<ul id="menu">
+				<li data-menuanchor="a" class="active"><a href="#a">个人简介</a></li>
+				<li data-menuanchor="b"><a href="#b">专业技能</a></li>
+				<li data-menuanchor="c"><a href="#c">工作经历</a></li>
+				<li data-menuanchor="d"><a href="#d">项目经验</a></li>
+				<li data-menuanchor="e"><a href="#e">自我评价</a></li>
+			</ul>
+		</nav>	
+		<div id="myFullPage">
+			<div class="section personal" >
+				<h3>详情：个人简历当中有运用到fullPage以及jQuery框架布局，运用animation插件的动画效果和c3新增属性transform...</h3>
+				<div>
+					<h1>WEB前端工程师</h1>
+					<p><span>Full-name</span>：邓杰涛</p>
+					<p><span>Birth</span>：1993年9月2日</p>
+					<p><span>Province</span>：广东省</p>
+					<p><span>Major</span>：WEB前端</p>
+					<p><span>Education</span>：大专</p>
+					<p><span>Motto</span>：命里有时终须有</p>
+					
+					<div class="boxs">
+						<div class="page1"><label>Major:WEB前端</label></div>
+						<div class="page2"><label>Full-name:<br/>邓杰涛<br/>Birth:<br/>1993年9月2日<br/>Province:<br/>广东省</label></div>
+						<div class="page3"><label>Education：大专</label></div>
+						<div class="page4"><label>Motto：<br/>命里有时终须有</label></div>
+						<div class="page5"><label>责任心强<br/>学习能力强</label></div>
+						<div class="page6"><label>健谈<br/>随和<br/>好学<br/>看书</label></div>
+					</div>
+				</div>
+				<img src="img/u=684243137,3624271617&fm=26&gp=0.jpg" alt="" class="office"/>
+			</div>
+			<div class="section major">
+				<ul>
+					<li class="">  精通HTML、CSS和Javascript网页开发技术。</li>
+					<li class="">  熟练Dom、Bom操作; 通过ajax和jsonp实现前端与后台进行数据交互，渲染页面。</li>
+					<li class="">  熟练运用jquery、、bootstrap、面向对象等前端框架</li>
+					<li class="">  掌握常见的插件如animate.css、fullpage等以提高工作效率。</li>
+					<li class="">  精通HTML+CSS布局 ，并且能够熟练的运用css3的新增样式</li>
+					<li class="">  能够处理主流浏览器常见的兼容问题，优化网站性能。</li>
+					<li class="">  熟练使用Photoshop图形软件，具有良好的配色及审美能力。</li>
+					<li class="">  具备良好的代码编程习惯及较强的文档编写能力</li>
+					<li class="">  熟练使用git 、GitHub来进行团队项目开发。</li>
+				</ul>
+			</div>
+			<div class="section work">
+				<div>
+					<h3><label>公司名：</label>仁居信息科技</h3>
+					<h3>工作时间：2016.3-2017.3</h3>
+					<h3>工作描述:</h3>
+					<ul>
+						<li>1、负责Web前端相关专题网页框架搭建、JS交互效果实现 </li>
+						<li>2、负责页面维护、优化，包括代码的调试、bug修复、解决浏览器兼容问题</li>
+						<li>3、根据产品设计要求和UI效果图，实现产品界面和功能，优化前端页面性能</li>
+						<li> 4、运用HTML5+CSS3+js实现手机端网页开发</li>
+					</ul>
+				</div>
+			
+			</div>
+			<div class="section project">
+				<div class="slide">
+					<div class="group">
+						<h3>项目名称：东方宾馆<a href="http://www.hoteldongfang.com/cn/index.aspx" target="_blank" class="thon">官网</a></h3>
+						<h3>项目时间：2016.4-2016.9</h3>
+						<ul>
+							<li class="group_li">
+								项目职责： 
+								<ul>
+									<li>1、根据需求设计、输入客户信息，保存到数据库当中；</li>
+									<li>2、配合相关部门完成专题页面pc端、手机端的开发、更新</li>
+									<li>3、实现H5页面和css3的交互效果</li>
+								</ul>
+							</li>
+							<li>运用技术： JavaScript、ajax、html5 + css3 、JQuery，swiper</li>
+							<li>解决难点： 将客户信息提交到后台存储，需要获取客户信息时通过ajax将客户信息从数据库中获取出来，查询客户信息等，定期更新客户信息等；</li>
+						</ul>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="group">
+						<h3>项目名称：掌上曲美APP <a href="http://www.qumei.cn" class="thon" target="_blank">PC端官网</a></h3>
+						<h3>项目时间：2016.10-2017.3</h3>
+						<ul>
+							<li>项目职责： 负责将设计图转化成页面，并使用HTML，CSS和Javascript 实现交互效果与UI设计师协作，优化用户交互体验.调试bug.</li>
+							<li>运用技术： JavaScript、ajax、html5 + css3 、JQuery 、zepto</li>
+							<li>解决难点： 了解Swiper代码，并分析其css的权重或者Swiper代码的实现的方式，再着手用自己的JavaScript代码去改写Swiper框架带来的固定的样式或者效果，达到满足客户需求的效果；</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="slide">
+					<div class="group">
+						<h3>项目名称：打地鼠游戏</h3>
+						<h3>项目时间：2天</h3>
+						<ul>
+							<li>项目职责： 自己练习的项目，主要针对js运动框架和递归思想进行练习，维持思维运作。</li>
+							<li>运用技术： JavaScript、html5 + css3 </li>
+							<li>解决难点：地鼠出现和被打中的时候会有一些不太明显的bug。地鼠出现的个数与地鼠和地鼠之间出现的时间差，如何能让用户不断消灭地鼠的同时，增加一点难度，不至于让用户那么快失去兴趣，经过不断思考和试验，而且在同事的帮助下，找出精确的时间点，解决了该问题。</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="slide">
+					<div class="group">
+						<h3>项目名称：携程APP</h3>
+						<h3>项目时间：2天</h3>
+						<ul>
+							<li>项目职责： 自己练习的项目。</li>
+							<li>运用技术： JavaScript、html5 + css3 、APP适配</li>
+							<li>解决难点： 无缝轮播的实现，需要绑定事件，获取手指位置图，图片在各种移动端中的适应大小</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<div class="section self">
+				<ul>
+					<li>1.性格：个人认为我的性格挺随意的，只要不过分都感觉没啥问题，人与人之间的相处就得随意点，计较太多未免给自己无端平添烦恼；</li>
+					<li>2.工作时不喜欢拉下一点工作没做完就跑去休息或者干别的东西，总想着做完再去休息；</li>
+					<li>3.多年的经历，对事认真，责任心强；对人和谐，平易相处；</li>
+				</ul>
+				<div class="opus">
+					<p>GitHub作品:</p>
+					<ul>
+						<li><a href="https://streambamboo.github.io/Browser" target="_blank">1.仿浏览器博物馆(响应式)</a></li>
+						<li><a href="https://streambamboo.github.io/JaneShop" target="_blank">2.仿Janeshop</a></li>
+						<li><a href="https://streambamboo.github.io/JaneShop/Jane2" target="_blank">3.仿Janeshop分页</a></li>
+						<li><a href="https://streambamboo.github.io/jusha" target="_blank">4.仿聚鲨商城</a></li>
+						<li><a href="https://streambamboo.github.io/7977game" target="_blank">5.7977game</a></li>
+						<li><a href="https://streambamboo.github.io/scenic" target="_blank">6.景区评价(APP)</a></li>
+						<li><a href="https://streambamboo.github.io/AUIPage" target="_blank">7.AUIPage(APP)</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

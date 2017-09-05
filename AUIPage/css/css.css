@@ -1,0 +1,261 @@
+#header{
+	background: #f9fafc;
+	color: #000000;
+	position: fixed;
+}
+.fixtop{
+	padding-top: 2.25rem;
+	background: #FFFFFF;
+}
+.fixtop2{
+	padding-top: 2.25rem;
+}
+.banner{
+	display: block;
+	height: 5.5rem;
+	background: url(../img/banner.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.banner .close{
+	width: 1.5rem;
+	height: 1.5rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: transparent;
+	display: block;
+}
+.lists{
+	display: block;
+	height: 6rem;
+	padding-left: 1rem;
+}
+.cont{
+	height: 6rem;
+	border-bottom: 1px solid #f9f9f9;
+	position: relative;
+}
+.cont_img{
+	float: left;
+	padding-top: 1.5rem;
+	width: 3rem;
+}
+.imgdot_box{
+	width: 2.5rem;
+	height: 2.5rem;
+	position: relative;
+}
+.imgdot_box .aui-dot{
+	right: 0.15rem;
+	top: 0.15rem;
+	z-index: 9;
+}
+.cont_img img{
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+}
+.cont_main{
+	float: left;
+	width: 10rem;
+	padding-top: 1.2rem;
+}
+.cont_main_big{
+	width: 13rem;
+}
+.cont_main h3{
+	color: #000000;
+	font-size: 0.9rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.cont_main h3 span{
+	color: red;
+}
+.cont_main p{
+	margin: 0.2rem 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.cont_right{
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background: transparent;
+	overflow: hidden;
+}
+.cont_right img{
+	width: 2rem;
+	height: 2rem;
+}
+#footer .big{
+	position: absolute;
+	top: -0.75rem;
+	left: 10%;
+	width: 80%;
+	height: 3rem;
+	background: #ffffff;
+	border-radius: 50%;
+}
+#footer .big .cir{
+	width: 90%;
+	height: 90%;
+	background: #fedb43;
+	border-radius: 50%;
+	margin: 5%;
+	line-height: 2.7rem;
+	text-align: center;
+}
+#footer .big .cir i{
+	font-size: 1.5rem;
+	line-height: 2.7rem;
+	font-weight: bold;
+	
+}
+
+.header a .aui-iconfont{
+	color: #333333;
+}
+.not_footer{
+	padding: 0.25rem 0;
+}
+.not_footer .float{
+	float: left;
+	width: 2.25rem;
+	height: 2.25rem;
+	
+}
+.footer_cir{
+	border: 1px solid #333333;
+	border-radius: 50%;
+	width: 1.65rem;
+	height: 1.65rem;
+	margin: 0.3rem auto;
+}
+.footer_cirgreen{
+	border: 2px solid lightgreen;
+}
+.footer_cir i{
+	font-size: 1rem;
+	font-weight: bold;
+}
+.not_input{
+	float: left;
+	width: 60%;
+	height: 2.25rem;
+}
+.not_input input{
+	padding-left: 0.25rem;
+	font-size: 1rem;
+}
+.shopping_info{
+	height: 3.6rem;
+	background: #FFFFFF;
+	border-bottom: 2px solid #EEEEEE;
+	box-sizing: border-box;
+	padding: 0.3rem;
+	overflow: hidden;
+}
+.linkimg{
+	height: 3rem;
+	width: 3rem;
+	float: left;
+	margin-right: 0.3rem;
+}
+.linkimg img{
+	height: 3rem;
+	width: 3rem;
+}
+.linkcont{
+	width: 9rem;
+	height: 3rem;
+	float: left;
+}
+.linkcont p{
+	font-size: 0.5rem;
+	color: #a0a0a0;
+}
+.linkbtn{
+	float: right;
+	position: relative;
+	height: 3rem;
+}
+.linkbtn a{
+	display: block;
+	width: 4rem;
+	height: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: #FF0000;
+	color: #FFFFFF;
+	
+}
+.aui-chat-header .timebox{
+	display: inline-block;
+	border-radius: 0.3rem;
+	padding: 0.1rem 0.3rem;
+	background: #CCCCCC;
+	color: #FFFFFF;
+}
+.aui-chat .aui-chat-right .aui-chat-content,.aui-chat .aui-chat-right .aui-chat-arrow{
+	background: #FEDB43;
+}
+.aui-chat .aui-chat-left .aui-chat-content,.aui-chat .aui-chat-left .aui-chat-arrow{
+	background: #FFFFFF;
+}
+.aui-chat{
+	padding-bottom: 2.25rem;
+}
+.aui-chat-item:last-child{
+	margin-bottom: 3.5rem;
+}
+.aui-card-list{
+	border-radius: 0.3rem !important;
+}
+.card_border{
+	border: 1px solid #d0d0d0;
+}
+.aui-card-list-header{
+	font-weight: bold;
+}
+.aui-card-list-footer{
+	margin:  0 0.75rem;
+	padding: 0.75rem 0;
+	color: #70abcf;
+	font-size: 0.8rem;
+}
+.list_border{
+	border-top: 1px solid #f1f1f1;
+}
+.aui-card-list-footer i{
+	color: #CCCCCC;
+	font-weight: bold;
+}
+.grey{
+	color: #CCCCCC;
+}
+.fix_grey_foot{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #d6dadd;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	font-size: 0.6rem;
+	padding: 0 1rem;
+}
+.fix_grey_foot .close_info{
+	color: #65aad5;
+}
+
+.sendi{
+	color: lightgreen;
+}

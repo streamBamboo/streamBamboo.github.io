@@ -1,0 +1,46 @@
+.self {
+	background-image: url(../img/d7d93a69cc6419a08bbf8975786133c2.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+
+.self ul:first-child{
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	width: 600px;
+	height: 400px;
+	color: #fff;
+	line-height: 50px;
+	font-size: 22px;
+} 
+
+
+.opus{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #fff;
+	position: absolute;
+	right: 40px;
+}
+.opus p{
+	font-size: 22px;
+	color: #fff;
+}
+
+.opus ul{
+	position: absolute;
+	left: 70px;
+}
+
+
+.opus a{
+	text-decoration: none;
+	color: purple;
+	line-height: 40px;
+	font-size: 18px;
+}

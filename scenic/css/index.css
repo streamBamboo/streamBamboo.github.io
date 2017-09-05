@@ -1,0 +1,676 @@
+@charset "utf-8";
+
+/*Document CSS*/
+
+body {
+	overflow: hidden;
+	position: relative;
+	font-family: arial, "微软雅黑";
+	font-size: 26px;
+}
+
+a,
+input {
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+input,
+textarea {
+	border: none;
+	outline: none;
+}
+
+textarea {
+	resize: none;
+}
+
+body>section {
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/*.autoScroll{
+	min-height: 1200px;
+	position: relative;
+}*/
+
+.btn {
+	width: 606px;
+	height: 74px;
+	color: #fff;
+	font-size: 29px;
+	outline: none;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 20px;
+	left: 17px;
+}
+
+.submit {
+	background: #3c9bbb;
+}
+
+#welcome {
+	transition: .8s;
+	-webkit-transition: .8s;
+}
+
+.info {
+	position: absolute;
+	bottom: 94px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 29px;
+	transition: 1s;
+	opacity: 0;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	color: #999;
+}
+
+
+/*#index:active .info{
+	transform: scale(.1);
+	opacity: 0;
+}*/
+
+.showPage {
+	display: block;
+}
+
+section:nth-of-type(1) {
+	z-index: 10;
+}
+
+section:nth-of-type(2) {
+	z-index: 9;
+}
+
+section:nth-of-type(3) {
+	z-index: 8;
+}
+
+section:nth-of-type(4) {
+	z-index: 7;
+}
+
+section:nth-of-type(5) {
+	z-index: 6;
+}
+
+section:nth-of-type(6) {
+	z-index: 5;
+}
+
+
+/*欢迎页*/
+
+@keyframes tree {
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@-webkit-keyframes tree {
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: rotate(50deg);
+	}
+	10% {
+		transform: rotate(-50deg);
+	}
+	20% {
+		transform: rotate(50deg);
+	}
+	30% {
+		transform: rotate(-50deg);
+	}
+	40% {
+		transform: rotate(50deg);
+	}
+	50% {
+		transform: rotate(-50deg);
+	}
+	60% {
+		transform: rotate(50deg);
+	}
+	70% {
+		transform: rotate(-50deg);
+	}
+	80% {
+		transform: rotate(50deg);
+	}
+	90% {
+		transform: rotate(-50deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@-webkit-keyframes shake {
+	0% {
+		-webkit-transform: rotate(50deg);
+	}
+	10% {
+		-webkit-transform: rotate(-50deg);
+	}
+	20% {
+		-webkit-transform: rotate(50deg);
+	}
+	30% {
+		-webkit-transform: rotate(-50deg);
+	}
+	40% {
+		-webkit-transform: rotate(50deg);
+	}
+	50% {
+		-webkit-transform: rotate(-50deg);
+	}
+	60% {
+		-webkit-transform: rotate(50deg);
+	}
+	70% {
+		-webkit-transform: rotate(-50deg);
+	}
+	80% {
+		-webkit-transform: rotate(50deg);
+	}
+	90% {
+		-webkit-transform: rotate(-50deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+@keyframes cloud {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(50px);
+	}
+	100% {
+		transform: translateX(-50px);
+	}
+}
+
+@-webkit-keyframes cloud {
+	0% {
+		-webkit-transform: translateX(0);
+	}
+	50% {
+		-webkit-transform: translateX(100px);
+	}
+	100% {
+		-webkit-transform: translateX(-10px);
+	}
+}
+
+@keyframes scale {
+	0% {
+		transform: scale(.2);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1.5);
+		opacity: .2;
+	}
+}
+
+@-webkit-keyframes scale {
+	0% {
+		-webkit-transform: scale(.2);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: scale(1.5);
+		opacity: .2;
+	}
+}
+
+.tree {
+	position: absolute;
+	top: 125px;
+	left: 0;
+	-webkit-transform: translateY(150px);
+	transform: translateY(150px);
+	opacity: 0;
+	-webkit-animation: tree 1.5s linear;
+	animation: tree 1.5s linear;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.tree2 {
+	padding: 40px 0 20px;
+	position: relative;
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+	opacity: 0;
+	-webkit-animation: tree 1.5s linear;
+	animation: tree 1.5s linear;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.tree3 {
+	-webkit-transform: translateY(80px);
+	transform: translateY(80px);
+	opacity: 0;
+	-webkit-animation: tree 1.5s linear;
+	animation: tree 1.5s linear;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.shake {
+	position: absolute;
+	left: 507px;
+	top: 10px;
+	width: 31px;
+	height: 34px;
+	background: url(../img/shake.png) no-repeat;
+	-webkit-animation: shake .5s 2s linear;
+	animation: shake .5s 2s linear;
+	-webkit-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.cloud {
+	position: absolute;
+	background: url(../img/cloud.png) no-repeat;
+	background-size: cover;
+}
+
+.cloud:nth-of-type(1) {
+	width: 92px;
+	height: 64px;
+	top: 77px;
+	left: 45px;
+	-webkit-animation: cloud 7s 2s infinite linear alternate;
+	animation: cloud 7s 2s infinite linear alternate;
+}
+
+.cloud:nth-of-type(2) {
+	width: 61px;
+	height: 39px;
+	top: 17px;
+	left: 389px;
+	-webkit-animation: cloud 8s 2.5s infinite linear alternate;
+	animation: cloud 8s 2.5s infinite linear alternate;
+}
+
+.cloud:nth-of-type(3) {
+	width: 57px;
+	height: 43px;
+	top: 140px;
+	left: 377px;
+	-webkit-animation: cloud 9s 3s infinite linear alternate;
+	animation: cloud 9s 3s infinite linear alternate;
+}
+
+.logo {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 80px;
+	opacity: 0;
+	-webkit-animation: tree 3s linear;
+	animation: tree 3s linear;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.newClue {
+	position: absolute;
+	top: 16px;
+	right: 14px;
+	z-index: 11;
+	width: 78px;
+	height: 78px;
+	border-radius: 50%;
+	background: #c43a44;
+}
+
+.newClue em {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 11;
+	color: #fff;
+	width: 60px;
+	height: 58px;
+	border-radius: 50%;
+	background: #c43a44;
+	font-size: 22px;
+	text-align: center;
+	padding: 10px 10px 10px 8px;
+	font-style: normal;
+}
+
+.newClue span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 78px;
+	height: 78px;
+	border-radius: 50%;
+	background: red;
+	z-index: -1;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	opacity: 1;
+}
+
+.newClue span:nth-of-type(1) {
+	-webkit-animation: scale 1s infinite linear alternate;
+	animation: scale 1s infinite linear alternate;
+}
+
+.newClue span:nth-of-type(2) {
+	-webkit-animation: scale 1s .3s infinite linear alternate;
+	animation: scale 1s .3s infinite linear alternate;
+}
+
+.newClue span:nth-of-type(3) {
+	-webkit-animation: scale 1s .5s infinite linear alternate;
+	animation: scale 1s .5s infinite linear alternate;
+}
+
+
+/*首页*/
+
+#index {
+	transition: .8s;
+	background: #fff;
+}
+
+.banner {
+	width: 100%;
+	height: 344px;
+	position: relative;
+}
+
+.list {
+	width: 500%;
+	height: 100%;
+	transition: 1s;
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+}
+
+.list li {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.list li img {
+	display: block;
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+
+.nav {
+	width: 100%;
+	height: 29px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .9) 0, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0));
+	background-image: linear-gradient(bottom, rgba(0, 0, 0, .9) 0, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0));
+	padding: 26px 0 28px 26px;
+}
+
+.nav nav {
+	width: 160px;
+	position: absolute;
+	top: 35px;
+	left: 450px;
+}
+
+.nav a {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 17px;
+	background: #fff;
+}
+
+.nav .active {
+	opacity: .5;
+}
+
+.score {
+	background: #fff;
+	padding: 18px 0 21px 25px;
+	border-bottom: 3px solid #f5f5f5;
+}
+
+.score h3 {
+	height: 59px;
+	line-height: 59px;
+	font-size: 28px;
+	color: #6a6a6a;
+}
+
+.score li {
+	height: 26px;
+	padding: 16px 0 19px 0;
+	position: relative;
+}
+
+.score li span {
+	font-size: 26px;
+	color: #a6a6a6;
+}
+
+.score li nav {
+	position: absolute;
+	top: 12px;
+	left: 189px;
+}
+
+.score li nav a {
+	width: 38px;
+	height: 35px;
+	float: left;
+	margin-right: 40px;
+	transition: 1s;
+	background: url(../img/star.png) no-repeat -38px 0;
+}
+
+.score1 {
+	background: #fff;
+	padding: 20px 0 0 26px;
+}
+
+.score1:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.score1 h3 {
+	height: 55px;
+	line-height: 55px;
+	font-size: 28px;
+	color: #6a6a6a;
+}
+
+.score1 label {
+	height: 62px;
+	padding: 9px 0;
+	float: left;
+	margin-left: 17px;
+}
+
+.score1 span {
+	color: #818181;
+	font-size: 26px;
+	border: 1px solid #666;
+	border-radius: 24px;
+	padding: 14px 22px 12px 27px;
+}
+
+
+/*利用input的checked属性和兄弟选择器来给span选中*/
+
+.score1 input:checked+span {
+	background: #3c9bbb;
+	color: #fff;
+	border-color: #72b6ce;
+}
+
+.score1 input {
+	display: none;
+}
+
+
+/*过渡页面*/
+
+#mask {
+	background: rgba(0, 0, 0, .7);
+	padding: 297px 0 0 153px;
+	transition: 1s;
+	opacity: 0;
+}
+
+
+/*新闻线索页*/
+
+#news {
+	background: #eee;
+}
+
+#news h3 {
+	padding: 50px 0 28px 36px;
+	height: 27px;
+	color: #696969;
+	font-size: 27px;
+}
+
+.upload {
+	width: 100%;
+	height: 190px;
+	background: #fff;
+}
+
+.upload label {
+	width: 50%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding: 113px 0 47px 110px;
+	color: #707070;
+	font-size: 26px;
+}
+
+.upload label:first-child {
+	background: url(../img/camera1.png) no-repeat 120px 20px;
+	border-right: 3px solid #f3f3f3;
+}
+
+.upload label:last-child {
+	background: url(../img/camera2.png) no-repeat 120px 31px;
+}
+
+.upload input {
+	display: none;
+}
+
+
+/*form页*/
+
+#form {
+	background: #eee;
+}
+
+.tag1 {
+	width: 100%;
+	height: 390px;
+	padding-left: 25px;
+	background: url(../img/formBg.png) no-repeat;
+}
+
+.tag1 h3 {
+	font-size: 32px;
+	color: #fff;
+	padding-top: 83px;
+	padding-bottom: 33px;
+}
+
+.tag1 .tag2 label {
+	height: 61px;
+	padding: 9px 0;
+	float: left;
+	margin-left: 17px;
+}
+
+.tag1 .tag2 label span {
+	background: rgba(0, 0, 0, .1);
+	color: #fff;
+	font-size: 26px;
+	border: 1px solid #fff;
+	border-radius: 26px;
+	padding: 14px 22px 12px 27px;
+}
+
+.tag1 input:checked+span {
+	background: rgba(93, 139, 154, .8);
+	opacity: 1;
+	color: #fff;
+	border-color: #72b6ce;
+}
+
+.tag1 input {
+	display: none;
+}
+
+.addText {
+	padding-top: 40px;
+}
+
+.text {
+	width: 100%;
+	background: #fff;
+	padding-top: 28px;
+	font-size: 28px;
+	box-sizing: content-box;
+	margin-bottom: 37px;
+}
+
+
+/*重新评价*/
+
+.again {
+	position: relative;
+}
+
+.again .tree3 {
+	position: absolute;
+	top: 478px;
+}

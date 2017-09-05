@@ -1,0 +1,19 @@
+@charset "utf-8";
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul,section,em {margin: 0;padding: 0;}
+
+li{list-style: none;}
+
+
+/*清除浮动代码*/
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0
+}
+
+.clearfix {
+	zoom: 1;
+}

@@ -1,0 +1,32 @@
+.project{
+	background-image: url(../img/timre.jpg);
+	background-size: cover;
+	
+}
+.slide{
+	position: relative;
+}
+.group{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	line-height: 50px;
+	color: orange;
+}
+
+
+.group_li ul{
+	margin-left: 100px;
+}
+
+
+.thon{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 40px;
+}

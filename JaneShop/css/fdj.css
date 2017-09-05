@@ -1,0 +1,36 @@
+	.box{
+		width: 312px;
+		height: 312px;
+		border: 1px solid #ccc;
+		position: relative;
+		box-sizing: border-box;
+		cursor: pointer;
+	}
+	.fdj{
+		width: 155px;
+		height: 155px;
+		background: rgba(0,0,0,0.3);
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+		cursor: move;
+	}
+	.content{
+		display: none;
+		width: 312px;
+		height: 312px;
+		border: 1px solid #ccc;
+		margin-left: 312px;
+		margin-top: -312px;
+		overflow: hidden;
+		position: relative;
+		box-sizing: border-box;
+	}
+	.content>img{
+		width: 620px;
+		height: 620px;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
