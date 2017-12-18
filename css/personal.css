@@ -83,8 +83,8 @@
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	top: 150px;
-	right: 200px;
+	top: 50%;
+	right: 10%;
 	animation: dhs 10s linear alternate infinite;
 }
 
@@ -181,7 +181,7 @@
 }
 
 .group {
-	width: 600px;
+	width: 800px;
 	height: 400px;
 	position: absolute;
 	right: 0;
@@ -189,7 +189,7 @@
 	left: 0;
 	bottom: 0;
 	margin: auto;
-	line-height: 50px;
+	line-height: 35px;
 	color: orange;
 }
 
@@ -243,7 +243,6 @@
 
 .opus a {
 	text-decoration: none;
-	color: purple;
 	line-height: 40px;
 	font-size: 18px;
 }
